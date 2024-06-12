@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RandomNumGame</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="is-size-4">숫자를 입력해주세요.</h2>
+      <div class="contents-list">
+        <input class="input" type="number" id="input-box" />
+        <button class="button is-info" id="check">확인</button>
+        <button class="button is-danger" id="reset">Reset</button>
+      </div>
+      <div id="result-area">결과가 나온다</div>
+      <div id="chance-area">남은 찬스 : 5번</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
