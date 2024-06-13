@@ -1,0 +1,40 @@
+.head-line {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.head-line h1 {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menus {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #cec7c780;
+  border-bottom: 4px double black;
+}
+
+.menus button {
+  border: none;
+  background: none;
+  margin: 5px;
+}
+
+.menus button:hover,
+.menus button:active {
+  background-color: lightgray;
+}
+
+.news-img {
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.news {
+  border-bottom: 1px solid black;
+}
